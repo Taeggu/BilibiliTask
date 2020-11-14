@@ -38,7 +38,7 @@ public class ThrowCoinTask implements Task {
             /* 实际需要投 num个硬币 */
             int num = (num2 >= num1 ? num1 : num2) >= num3 ? num3 : (num2 >= num1 ? num1 : num2);
             /* 获取分区视频信息 */
-            JSONArray regions = getRegions("6", "1");
+            JSONArray regions = getRegions("6", "177");
             /* 给每个视频投 1 个币,点 1 个赞 */
             for (int i = 0; i < num; i++) {
                 /* 视频的aid */
